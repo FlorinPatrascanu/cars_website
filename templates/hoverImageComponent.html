@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="col-md-6 firstOne ih-item square effect12 left_to_right" ng-repeat = "car in cars">
+            <a>
+                
+                <div class="img">
+                    <img class='img-responsive' ng-src="{{car.image}}">
+                </div>
+
+                <div class="info" style="font-family: 'Maitree', serif;">
+                    <h3>Heading here</h3>
+                    <p>{{car.description}}</p>
+                    <button class = 'btn btn-default'>More</button>
+                </div>
+
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,660 @@
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+   display: none !important;
+}
+
+html,
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+}
+
+
+.moreInfo {
+	height: 200px;
+    background-color: #f2f2f2;
+}
+
+
+
+.cssFade {
+	transition: 0.5s ease;
+}
+
+
+.cssFade.ng-show {
+    opacity: 1;	
+} 
+
+.cssFade.ng-hide {
+	transition: 0s;
+    opacity: 0;
+}
+
+
+
+.find_more {
+	background-color: #f2f2f2;
+    height: 300px;
+}
+
+
+.parl_image {
+    max-height: 650px;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.parl_image img {
+	max-height: inherit;
+    width: 100%;
+}
+
+.car_info_image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+}
+
+.car_info_image img {
+    height: inherit;
+    width: 100%;
+}
+
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.info_panel {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-color: #4F86C6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+.info_panel h1 {
+    margin: 0;
+    padding-top: 15%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.info_panel h5 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.info_panel .panel {
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 59px;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    border-radius: 0px;
+    overflow: hidden; 
+    
+}
+
+.banner {
+	height: 200px;
+    color: white;
+    background-color: black;
+    font-family: 'Maitree', serif;
+    padding: 60px;
+}
+
+.floated_right {
+	float: right;
+}
+
+.newStyle {
+	padding: 0;
+    margin: 0;
+    height: 400px;
+}
+
+.newStyle img {
+	height: 400px;
+    width: 100%;
+}
+
+.no-gutter [class*="-6"] {
+	padding-left:0;
+    padding-right:0;
+}
+
+.contact_header {
+	text-align: center;
+    color: #22A7F0;
+
+}
+.gidd {
+	visibility: hidden;
+}
+
+
+.firstOne {
+	height: 400px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.firstOne img {
+    height: inherit;
+    width: 100%;
+    padding: 1em;
+}
+
+
+
+
+
+.firstOne .captionContent {
+    position: absolute;
+	height: 400px;
+    width: 100%;
+    background-color: black;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: transform 300ms;
+
+/*
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+*/
+}
+
+.firstOne .captionContent .textArea  {
+    color: white;
+/*    font-size: 50px;*/
+    position: absolute;
+/*    padding-top: 50px;*/
+    display: none;
+/*
+    margin-top: 100px;
+    padding-left: 10%;
+*/
+}
+
+.firstOne .captionContent .textArea button{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+} 
+	
+
+.firstOne:hover .captionContent {
+    transform: translateY(-400px)
+} 
+
+.firstOne:hover .textArea {
+    display: block;
+}
+
+
+ih-item square effect12 left_to_right .img {
+    height: 400px;
+}
+
+	
+
+
+
+/*
+.secondOne {
+	height: 400px;
+    background-color: #F1A94E;
+}
+
+.secondOne img {
+	height: inherit;
+    width: 100%;
+}
+*/
+
+.form_name {
+    margin-bottom: 20px;
+}
+
+.form_email {
+    margin-bottom: 20px;
+}
+
+.form_textarea {
+    margin-bottom: 20px;
+}
+
+.captionTxt {
+   font-family: 'Righteous', cursive;
+}
+
+.noSpace .captionTxt {
+	padding: 0;
+    margin: 0;
+    position: relative;
+    top: 55px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+   background-color: #22A7F0;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+   background-color: #011638;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+   color: #FFFFFF;
+   background-color: #1A242F;
+}
+
+.navbar-inverse {
+   background-color: #22A7F0;
+   border-color: transparent;
+   color: #FFFFFF;
+   position: relative;
+   /*add position: fixed if you want the navbar to be fixed */
+   margin: 0px;
+   padding: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+   color: white;
+   opacity: 1;
+   transition: 0.3s background-color ease-in-out;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+   background-color: white;
+   color: #22A7F0;
+   transition: 0.3s background-color ease-in-out;
+}
+
+.navbar-inverse .navbar-brand {
+   color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #22A7F0;
+    background-color: white;
+    transition: 0.3s background-color ease-in-out;
+}
+
+.uib-dropdown-toggle:hover > .uib-dropdown-menu {
+   display: block;
+}
+
+.uib-dropdown-toggle:focus > .uib-dropdown-menu {
+   display: block;
+}
+
+.sp {
+   color: #18BC9C;
+}
+
+.bla {
+   cursor: pointer;
+}
+
+.blast {
+   color: #22A7F0;
+   margin: 5px;
+}
+
+.dropdown-menu>li>a:hover {
+   background-color: #DADFE1;
+}
+
+
+.limited {
+   height: 200px;
+   padding: 0;
+   margin: 0;
+   width: 250px;
+}
+
+.limited img {
+   height: 200px;
+   width: 100%;
+}
+
+.footer {
+	height: 200px;
+    background: linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+
+}
+
+.footer img {
+	margin-top: 50px;
+    padding: 2px;
+}
+
+.footer h3 {
+	position: relative;
+    top: 35px;
+    font-family: 'Biryani', sans-serif;
+}
+
+
+.thumb {
+	height: 250px;
+/*
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+*/
+/*    margin-bottom: 50px;*/
+}
+
+.thumb img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.thumb-hover {
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    z-index: 1;
+    
+}
+
+/*
+.thumb img:hover {
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+*/
+
+
+.carousel-inner {
+   height: 670px;
+   width: 100%;
+
+}
+
+.carousel {
+	margin-bottom: 0;
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 670px;
+   max-height: 670px;
+   object-fit: fill;
+   position: absolute;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+   background-image: none !important;
+   filter: none !important;
+}
+
+.carousel-caption {
+   bottom: 70%;
+   left: 32%;
+   width: 500px;
+}
+
+
+.customDisplay {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+.customDisplay .captionTxt {
+	color: white;
+
+} 
+	
+
+
+@media screen and (max-width: 768px) {
+   .blast {
+       color: white;
+   }
+   .navbar-inverse {
+       overflow-y: hidden;
+   }
+   .carouselStyle {
+       height: 450px;
+   }
+}
+
+@media screen and (max-width: 321px) {
+     .sticky-box > ul > li > a {
+         color: white;
+         margin: 5px;
+         text-decoration: none;
+         cursor: pointer;
+     }
+    
+    .sticky-box > ul > li {
+         padding: 0px;
+     }
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .floated_right {
+	    float: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+   .carousel-inner {
+       height: 300px;
+   }
+    
+   .carousel-inner img {
+       width: 100%;
+       height: 300px;
+       max-height: 300px;
+   }
+    
+    .banner {
+      padding: 30px;
+    }
+    
+/*
+     .thumb {
+        height: 150px;
+        left: -4px;
+   
+    }
+
+    .thumb img {
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+*/
+    
+  
+    .ih-item.square {
+/*  position: relative;*/
+      height: 250px;
+ 
+    }
+    
+    .firstOne {
+	    height: 250px;
+    }
+
+    .firstOne img {
+        height: inherit;
+        width: 100%;
+    }
+
+    .secondOne {
+        height: 250px;
+        background-color: #F1A94E;
+    }
+
+    .secondOne img {
+        height: inherit;
+        width: 100%;
+    }
+    
+    .firstOne .captionContent {
+	height: 250px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    transition: transform 300ms;
+    }
+    
+    .firstOne:hover .captionContent {
+    transform: translateY(-250px)
+    } 
+    
+    .firstOne .captionContent .textArea {
+	    margin-left: 23%;
+        font-size: 20px;
+        margin-top: 23%;
+    }
+    
+    .firstOne .captionContent .textArea button{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    
+    
+ 
+}
+
+@media screen and (max-width: 436px) {
+   .carousel-inner {
+       height: 300px;
+   }
+   .carousel-inner img {
+       width: 100%;
+       height: 300px;
+       max-height: 300px;
+   }
+    
+    .car_info_image {
+        height: 250px;
+        width: 100%;
+    }
+    
+    .car_info_image img {
+        height: 250px;
+        width: inherit;
+    }
+    
+
+    
+    .info_panel {
+        height: 250px;
+        overflow: hidden;
+    }
+    
+.info_panel .panel {
+    height: 125px;
+    width: 25%;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    border-radius: 0px; 
+    
+}
+    
+    .info_panel h1 {
+        padding-top: 12.5%;
+    }
+    
+.info_panel h5 {
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+}
+
+@media screen and (min-width: 436px) and (max-width: 620px) {
+   .carousel-inner {
+       height: 400px;
+   }
+   .carousel-inner img {
+       width: 100%;
+       height: 400px;
+       max-height: 400px;
+   }
+    
+
+}
+
+
+/*for tablet*/
+
+@media screen and (min-device-width: 540px) and (max-device-width: 768px) { 
+    .info_panel .panel {
+        margin-top: 79px;
+    }
+    
+    .info_panel h5 {
+        font-size: 18px;
+    }
+}
+
+/*grid tiles for phones*/
+@media screen and (max-width: 450px) {
+    .thumb {
+        height: 150px;
+        left: -4px;
+   
+    }
+
+    .thumb img {
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+}
+
+
+
+
+

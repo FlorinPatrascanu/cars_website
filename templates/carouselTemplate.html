@@ -1,0 +1,12 @@
+	<div class = 'container-fluid' style="margin : 0; padding : 0;" ng-controller="carouselCtrl">
+        <uib-carousel active = "active" interval = "3000" no-wrap="noWrapSlides">
+          <uib-slide ng-repeat = "slide in slides track by $index" active = "slide" index="$index">
+               <div class = "carousel-inner">
+                    <img class = "img-responsive" ng-src="{{slide.image}}">
+                    <div class = 'carousel-caption'>
+                        <h1 class = 'captionTxt'>{{slide.caption}}</h1>
+                    </div>      
+               </div>
+          </uib-slide>
+        </uib-carousel>
+    </div>

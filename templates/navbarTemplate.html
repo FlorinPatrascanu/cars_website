@@ -1,0 +1,56 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" ng-controller = 'menuCtrl'>
+
+				<div class="navbar-inner">
+
+					<div class = "container">
+
+						<div class = "navbar-header"> 
+
+							<a ng-href = "#/cars" class = "navbar-brand"><span class = 'captionTxt'>Cars Universe</span></a>
+
+							<button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
+					 	  	<span class = "icon-bar"></span>
+					 	  	<span class = "icon-bar"></span>
+					 	  	<span class = "icon-bar"></span>
+					 	  	</button>
+
+				 	    </div>
+
+						<div collapse = "isCollapsed" class="navbar-collapse navbar-responsive-collapse floated_right" ng-class="{collapse: isCollapsed}">
+	  
+				    			<ul class="nav navbar-nav">
+				      
+				      				<li uib-dropdown is-open="status.isopen" 
+				      					ng-mouseenter="status.isopen = true" 
+				      					ng-mouseleave="status.isopen = false">
+
+				        				<a uib-dropdown-toggle> Cars <span class="caret"></span>
+				        				</a>
+				        					<ul uib-dropdown-menu>
+										          <li ng-repeat = "x in carTypes"><a class = 'bla' ui-sref = "#">  <p class = 'blast'> {{x.type}} </p> </a>                                                       </li>
+				        					</ul>
+				      				</li>
+
+
+				      				<li uib-dropdown>
+										<a uib-dropdown-toggle> Dropdown <span class = "caret"></span></a>
+											<ul uib-dropdown-menu>
+										          <li><a class = 'bla' ng-href = "#/whatever">  <p class = 'blast'> Sticky Navigation </p> </a></li>
+										          <li><a class = 'bla' ui-sref = "#">  <p class = 'blast'> More options </p> </a></li>
+										          <li><a class = 'bla' ui-sref = "#">  <p class = 'blast'> Even more options! </p> </a></li>
+				        					</ul>
+				      				</li>
+				      				
+				      				<li><a href="#">About Us</a></li> 
+				      				
+				      				<li><a ng-href = "#/contact">Contact</a></li> 
+
+				    			</ul>
+
+		    			</div>
+
+		    		</div>
+
+		    	</div>
+
+</nav>

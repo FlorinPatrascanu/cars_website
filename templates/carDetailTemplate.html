@@ -1,0 +1,98 @@
+<!--
+TBD: Detail view for <span>{{$ctrl.carId}}</span>
+<hr>
+{{$ctrl.car.fullName}} 
+<hr>
+{{$ctrl.car.engine}}
+
+
+<hr>
+-->
+
+
+
+
+
+
+
+<div class = 'row no-margin no-gutter'>
+    
+    
+    <section class = 'col-md-12 parl_image'>
+        <img class = 'img-responsive' ng-src = '{{$ctrl.car.image}}' du-parallax y = '$ctrl.background'>
+    </section>
+    
+    
+
+    
+<!--
+    <div class = 'col-md-6 car_info_image'>
+        <img class = 'img-responsive' ng-src = '{{$ctrl.car.image}}'>
+    </div>
+-->
+    
+    
+    
+    <div class = 'col-md-6 col-sm-12 car_info gidd'
+         when-visible = '$ctrl.animate_in'
+         when-not-visible = '$ctrl.animate_out'>
+
+    
+        <div class = 'info_panel'>
+
+          <center> <h1>{{$ctrl.car.fullName}} </h1> </center>
+              <div class = 'panel'>
+                <h5>BHP</h5>  
+                <hr>
+                <h5>{{$ctrl.car.bhp}}</h5>
+              </div>
+              <div class = 'panel'>
+                <h5>Top Speed</h5> 
+                <hr>
+                <h5>{{$ctrl.car.topSpeed}}</h5>
+              </div>
+              <div class = 'panel'>
+                <h5>Drivetrain</h5>
+                <hr>
+                <h5>{{$ctrl.car.drivetrain}}</h5>
+              </div>
+              <div class = 'panel'>
+                <h5>Engine</h5> 
+                <hr>
+
+                <h5>{{$ctrl.car.engine}}</h5>
+              </div>
+
+        </div>
+    
+
+
+    </div>
+    
+    
+    <div class="col-md-6 col-sm-12">
+        <tabs></tabs>
+    </div>
+    
+    
+</div>
+    
+
+   
+<div class = 'row no-margin no-gutter'>
+   
+    <div class="col-md-12 moreInfo">
+        <div ng-hide = "$ctrl.showInfo">
+            <button class="btn btn-primary" ng-click = '$ctrl.showInfo = true'>Show More</button>
+        </div>
+        <div class = 'cssFade' ng-show = "$ctrl.showInfo">
+            <button class="btn btn-primary" ng-click = '$ctrl.showInfo = false'>
+            <span class="glyphicon glyphicon-arrow-left"></span> </button>
+            <br>
+            {{$ctrl.car.desc}}
+        </div>
+    </div>
+
+</div> 
+
+

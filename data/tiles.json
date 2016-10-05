@@ -1,0 +1,49 @@
+[
+    {
+        "image" : "images/tiles_images/f_type.png",
+        "description" : "Find more about Jag F Type",
+        "url" : "jaguar-f-type"
+    },
+
+    {
+        "image" : "images/tiles_images/m6.png",
+        "description" : "Find more about M6",
+        "url" : "bmw-m6"
+    },
+
+    {
+        "image" : "images/tiles_images/laferrari.png",
+        "description" : "Find more about LaFerrari",
+        "url" : "ferrari-laferrari"
+    },
+
+    {
+        "image" : "images/tiles_images/wrx.png",
+        "description" : "Find more about Subaru Impreza",
+        "url" : "subaru-impreza"
+    },
+
+    {
+        "image" : "images/tiles_images/focus_rs.png",
+        "description" : "Find more about Ford Focus RS",
+        "url" : "ford-focus-rs"
+    },
+
+    {
+        "image" : "images/tiles_images/merc_s65.png",
+        "description" : "Find more about Mercedes S65",
+        "url" : "mercedes-s65"
+    },
+
+    {
+        "image" : "images/tiles_images/aventador.png",
+        "description" : "Find more about Lamborghini Aventador",
+        "url" : "lamborghini-aventador"
+    },
+
+    {
+        "image" : "images/tiles_images/audi_s3.png",
+        "description" : "Find more about Audi S3",
+        "url" : "audi-s3"
+    }
+]

@@ -1,0 +1,23 @@
+
+
+<div class = "container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb"
+             ng-repeat = "car in $ctrl.cars">
+             
+         <a href = '#/car/{{car.id}}'>
+           <div class="tiles gidd"
+             when-visible = '$ctrl.animate_element_in'
+             when-not-visible = '$ctrl.animate_element_out'
+             delay-percent = '0.5'>
+               <img class = 'img-responsive img-thumbnail' ng-src = '{{car.image}}' enterz leavez>
+              
+                   <span>{{car.name}}</span>
+           </div>   
+         </a>
+            
+        </div>
+    </div>
+</div>
+
+        
